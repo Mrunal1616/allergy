@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage('Checkout'){
 			steps{
-				git branch: "main", url: 'https://github.com/Mrunal1616/allergy.git'
+				git branch: "main", url: 'https://github.com/Pratham232/g3-allergy-service.git'
 			
 			}
 			
@@ -21,28 +21,22 @@ pipeline{
 				}
 			}
 		}
-		stage('test'){
-           steps{
-            sh './mvnw test'
-          
-           }
-            }
       stage('DockerBuild') {
             steps {
-                sh 'docker build -t mrunalbarde/allergy:latest .'
+                sh 'docker build -t itsmepratham23/g3-allergy-service:latest .'
             }
         }
         stage('Login') {
 
 			steps {
-				sh 'echo Mrunal@11112000 | docker login -u mrunalbarde --password-stdin'
+				sh 'echo Pratham@23 | docker login -u itsmepratham23 --password-stdin'
 			}
 		}
 
 		stage('Push') {
 
 			steps {
-				sh 'docker push mrunalbarde/allergy'
+				sh 'docker push itsmepratham23/g3-allergy-service'
 			}
 		}
 	}
