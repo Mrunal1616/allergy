@@ -23,7 +23,7 @@ pipeline{
 		}
       stage('DockerBuild') {
             steps {
-                sh 'docker build -t mrunalbarde/allergy:image .'
+                sh 'docker build -t mrunalbarde/allergy:latest .'
             }
         }
         stage('Login') {
