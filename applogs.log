@@ -1,0 +1,164 @@
+2023-04-24T13:07:31.844+05:30  WARN 9700 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d13h22m57s119ms589µs900ns).
+2023-04-24T13:10:15.197+05:30  INFO 9700 --- [RMI TCP Connection(564)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-24T13:10:18.128+05:30  INFO 9700 --- [RMI TCP Connection(564)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T13:10:18.198+05:30  INFO 9700 --- [RMI TCP Connection(564)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24T13:10:18.752+05:30  INFO 9700 --- [RMI TCP Connection(564)-127.0.0.1] o.s.c.c.s.ConsulServiceRegistry          : Deregistering service with consul: g3-allergy-service-9002
+2023-04-24T13:10:19.038+05:30  INFO 9700 --- [RMI TCP Connection(564)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24T13:10:19.491+05:30  INFO 9700 --- [RMI TCP Connection(564)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-24T13:10:19.572+05:30  INFO 9700 --- [RMI TCP Connection(564)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-24T13:14:38.524+05:30  INFO 19952 --- [restartedMain] c.c.a.AllergyServiceApplication          : Starting AllergyServiceApplication using Java 17.0.6 with PID 19952 (F:\krunalfinalnew\Final-integration\Microservices\g3-allergy-service\target\classes started by hp in F:\krunalfinalnew\Final-integration\Microservices\g3-allergy-service)
+2023-04-24T13:14:38.529+05:30  INFO 19952 --- [restartedMain] c.c.a.AllergyServiceApplication          : The following 1 profile is active: "local"
+2023-04-24T13:14:38.618+05:30  INFO 19952 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24T13:14:38.618+05:30  INFO 19952 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24T13:14:42.076+05:30  INFO 19952 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24T13:14:42.350+05:30  INFO 19952 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 258 ms. Found 1 JPA repository interfaces.
+2023-04-24T13:14:42.836+05:30  INFO 19952 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d1b1b9a6-1af3-387e-a4e6-700db028a81e
+2023-04-24T13:14:43.038+05:30  INFO 19952 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24T13:14:43.116+05:30  INFO 19952 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-04-24T13:14:43.921+05:30  INFO 19952 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9002 (http)
+2023-04-24T13:14:43.940+05:30  INFO 19952 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T13:14:43.940+05:30  INFO 19952 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-24T13:14:44.130+05:30  INFO 19952 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24T13:14:44.131+05:30  INFO 19952 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5512 ms
+2023-04-24T13:14:44.600+05:30  INFO 19952 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24T13:14:44.707+05:30  INFO 19952 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-24T13:14:45.468+05:30  INFO 19952 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-24T13:14:45.924+05:30  INFO 19952 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36736c63
+2023-04-24T13:14:45.931+05:30  INFO 19952 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-24T13:14:46.129+05:30  INFO 19952 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-24T13:14:48.341+05:30  INFO 19952 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24T13:14:48.362+05:30  INFO 19952 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24T13:14:49.196+05:30  WARN 19952 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24T13:14:52.662+05:30  WARN 19952 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-04-24T13:14:53.191+05:30  WARN 19952 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-04-24T13:14:53.201+05:30  INFO 19952 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2023-04-24T13:14:53.680+05:30  INFO 19952 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9002 (http) with context path ''
+2023-04-24T13:14:53.688+05:30  INFO 19952 --- [restartedMain] o.s.c.c.s.ConsulServiceRegistry          : Registering service with consul: NewService{id='g3-allergy-service-9002', name='g3-allergy-service', tags=[], address='DESKTOP-8SIK7ME', meta={secure=false}, port=9002, enableTagOverride=null, check=Check{script='null', dockerContainerID='null', shell='null', interval='10s', ttl='null', http='http://DESKTOP-8SIK7ME:9002/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null', grpc='null', grpcUseTLS=null}, checks=null}
+2023-04-24T13:14:54.137+05:30  INFO 19952 --- [restartedMain] c.c.a.AllergyServiceApplication          : Started AllergyServiceApplication in 17.069 seconds (process running for 18.786)
+2023-04-24T13:14:55.102+05:30  INFO 19952 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24T13:14:55.103+05:30  INFO 19952 --- [RMI TCP Connection(11)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-24T13:14:55.106+05:30  INFO 19952 --- [RMI TCP Connection(11)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-04-24T13:25:18.317+05:30  INFO 19952 --- [http-nio-9002-exec-4] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:25:18.318+05:30  INFO 19952 --- [http-nio-9002-exec-4] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:26:00.929+05:30  INFO 19952 --- [http-nio-9002-exec-7] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:26:00.930+05:30  INFO 19952 --- [http-nio-9002-exec-7] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:26:05.447+05:30  INFO 19952 --- [http-nio-9002-exec-10] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:26:05.448+05:30  INFO 19952 --- [http-nio-9002-exec-10] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:26:08.978+05:30  INFO 19952 --- [http-nio-9002-exec-1] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:26:08.979+05:30  INFO 19952 --- [http-nio-9002-exec-1] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:26:13.642+05:30  INFO 19952 --- [http-nio-9002-exec-4] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:26:13.643+05:30  INFO 19952 --- [http-nio-9002-exec-4] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:26:23.010+05:30  INFO 19952 --- [http-nio-9002-exec-8] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:26:23.010+05:30  INFO 19952 --- [http-nio-9002-exec-8] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:26:28.175+05:30  INFO 19952 --- [http-nio-9002-exec-9] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:26:28.176+05:30  INFO 19952 --- [http-nio-9002-exec-9] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:26:31.666+05:30  INFO 19952 --- [http-nio-9002-exec-6] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:26:31.666+05:30  INFO 19952 --- [http-nio-9002-exec-6] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:26:39.220+05:30  INFO 19952 --- [http-nio-9002-exec-10] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:26:39.220+05:30  INFO 19952 --- [http-nio-9002-exec-10] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:26:42.609+05:30  INFO 19952 --- [http-nio-9002-exec-3] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:26:42.609+05:30  INFO 19952 --- [http-nio-9002-exec-3] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:26:47.888+05:30  INFO 19952 --- [http-nio-9002-exec-1] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:26:47.888+05:30  INFO 19952 --- [http-nio-9002-exec-1] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:27:56.324+05:30  INFO 19952 --- [http-nio-9002-exec-3] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:27:56.324+05:30  INFO 19952 --- [http-nio-9002-exec-3] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:28:08.008+05:30  INFO 19952 --- [http-nio-9002-exec-4] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:28:08.008+05:30  INFO 19952 --- [http-nio-9002-exec-4] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:28:14.709+05:30  INFO 19952 --- [http-nio-9002-exec-8] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:28:14.709+05:30  INFO 19952 --- [http-nio-9002-exec-8] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:28:55.224+05:30  INFO 19952 --- [http-nio-9002-exec-10] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:28:55.224+05:30  INFO 19952 --- [http-nio-9002-exec-10] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:29:02.235+05:30  INFO 19952 --- [http-nio-9002-exec-1] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:29:02.235+05:30  INFO 19952 --- [http-nio-9002-exec-1] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:29:09.735+05:30  INFO 19952 --- [http-nio-9002-exec-5] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:29:09.735+05:30  INFO 19952 --- [http-nio-9002-exec-5] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:29:47.791+05:30  INFO 19952 --- [http-nio-9002-exec-6] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:29:47.791+05:30  INFO 19952 --- [http-nio-9002-exec-6] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:29:52.830+05:30  INFO 19952 --- [http-nio-9002-exec-10] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:29:52.831+05:30  INFO 19952 --- [http-nio-9002-exec-10] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:29:57.376+05:30  INFO 19952 --- [http-nio-9002-exec-3] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:29:57.377+05:30  INFO 19952 --- [http-nio-9002-exec-3] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:33:19.045+05:30  INFO 19952 --- [http-nio-9002-exec-4] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:33:19.046+05:30  INFO 19952 --- [http-nio-9002-exec-4] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:33:22.436+05:30  INFO 19952 --- [http-nio-9002-exec-8] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:33:22.436+05:30  INFO 19952 --- [http-nio-9002-exec-8] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:33:26.943+05:30  INFO 19952 --- [http-nio-9002-exec-9] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:33:26.943+05:30  INFO 19952 --- [http-nio-9002-exec-9] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:35:40.842+05:30  INFO 19952 --- [http-nio-9002-exec-1] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:35:40.842+05:30  INFO 19952 --- [http-nio-9002-exec-1] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:35:47.761+05:30  INFO 19952 --- [http-nio-9002-exec-4] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:35:47.762+05:30  INFO 19952 --- [http-nio-9002-exec-4] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:36:09.847+05:30  INFO 19952 --- [http-nio-9002-exec-9] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:36:09.847+05:30  INFO 19952 --- [http-nio-9002-exec-9] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:36:55.132+05:30  INFO 19952 --- [http-nio-9002-exec-1] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:36:55.133+05:30  INFO 19952 --- [http-nio-9002-exec-1] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:36:59.595+05:30  INFO 19952 --- [http-nio-9002-exec-4] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:36:59.595+05:30  INFO 19952 --- [http-nio-9002-exec-4] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:37:01.088+05:30  INFO 19952 --- [http-nio-9002-exec-8] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:37:01.089+05:30  INFO 19952 --- [http-nio-9002-exec-8] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T13:57:36.663+05:30  INFO 19952 --- [http-nio-9002-exec-10] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T13:57:36.664+05:30  INFO 19952 --- [http-nio-9002-exec-10] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T14:11:07.463+05:30  INFO 19952 --- [http-nio-9002-exec-4] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[Allergy [allergyId=1, allergyName=food, allergyNotes=aaa]]
+2023-04-24T14:11:07.464+05:30  INFO 19952 --- [http-nio-9002-exec-4] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T15:00:49.549+05:30  INFO 7716 --- [main] c.c.a.AllergyServiceApplicationTests     : Starting AllergyServiceApplicationTests using Java 17.0.6 with PID 7716 (started by hp in F:\krunalfinalnew\Final-integration\Microservices\g3-allergy-service)
+2023-04-24T15:00:49.553+05:30  INFO 7716 --- [main] c.c.a.AllergyServiceApplicationTests     : The following 1 profile is active: "local"
+2023-04-24T15:00:54.082+05:30  INFO 7716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24T15:00:54.586+05:30  INFO 7716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 477 ms. Found 1 JPA repository interfaces.
+2023-04-24T15:00:55.415+05:30  INFO 7716 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7b744547-486e-3e6b-a8f3-3459e5580ab7
+2023-04-24T15:00:55.879+05:30  INFO 7716 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24T15:00:56.008+05:30  INFO 7716 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-04-24T15:00:56.593+05:30  INFO 7716 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24T15:00:56.814+05:30  INFO 7716 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-24T15:00:57.360+05:30  INFO 7716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-24T15:00:57.867+05:30  INFO 7716 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6331b2d
+2023-04-24T15:00:57.872+05:30  INFO 7716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-24T15:00:58.171+05:30  INFO 7716 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-24T15:01:00.039+05:30  INFO 7716 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24T15:01:00.075+05:30  INFO 7716 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24T15:01:00.885+05:30  WARN 7716 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24T15:01:07.021+05:30  WARN 7716 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-04-24T15:01:07.049+05:30  INFO 7716 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2023-04-24T15:01:07.345+05:30  INFO 7716 --- [main] c.c.a.AllergyServiceApplicationTests     : Started AllergyServiceApplicationTests in 20.648 seconds (process running for 35.924)
+2023-04-24T15:01:07.619+05:30  INFO 7716 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-04-24T15:01:07.621+05:30  INFO 7716 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-04-24T15:01:07.626+05:30  INFO 7716 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
+2023-04-24T15:01:07.635+05:30  INFO 7716 --- [main] c.c.a.service.impl.AllergyServiceImpl    : Allergy List:[]
+2023-04-24T15:01:07.637+05:30 ERROR 7716 --- [main] c.c.a.service.impl.AllergyServiceImpl    : Couldn't find any allergy in the databse
+2023-04-24T15:01:07.695+05:30  INFO 7716 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-04-24T15:01:07.696+05:30  INFO 7716 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-04-24T15:01:07.699+05:30  INFO 7716 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-04-24T15:01:07.700+05:30  INFO 7716 --- [main] c.c.a.service.impl.AllergyServiceImpl    : Allergy by id found:Optional.empty
+2023-04-24T15:01:07.701+05:30 ERROR 7716 --- [main] c.c.a.service.impl.AllergyServiceImpl    : Couldn't find allergy by the id1
+2023-04-24T15:01:07.729+05:30  INFO 7716 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-04-24T15:01:07.729+05:30  INFO 7716 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-04-24T15:01:07.732+05:30  INFO 7716 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-04-24T15:01:07.879+05:30  INFO 7716 --- [main] c.c.a.controller.AllergyController       : Allergy controller passing controller to allergy service
+2023-04-24T15:01:08.133+05:30  INFO 7716 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-04-24T15:01:08.133+05:30  INFO 7716 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-04-24T15:01:08.136+05:30  INFO 7716 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-04-24T15:01:08.171+05:30  INFO 7716 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.capstone.application.SeleniumLoginTestCase]: SeleniumLoginTestCase does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-04-24T15:01:08.177+05:30  INFO 7716 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.capstone.application.AllergyServiceApplication for test class com.capstone.application.SeleniumLoginTestCase
+2023-04-24T15:01:08.616+05:30  INFO 7716 --- [main] c.c.application.SeleniumLoginTestCase    : Starting SeleniumLoginTestCase using Java 17.0.6 with PID 7716 (started by hp in F:\krunalfinalnew\Final-integration\Microservices\g3-allergy-service)
+2023-04-24T15:01:08.617+05:30  INFO 7716 --- [main] c.c.application.SeleniumLoginTestCase    : The following 1 profile is active: "local"
+2023-04-24T15:01:09.780+05:30  INFO 7716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-24T15:01:09.831+05:30  INFO 7716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2023-04-24T15:01:10.029+05:30  INFO 7716 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7b744547-486e-3e6b-a8f3-3459e5580ab7
+2023-04-24T15:01:10.091+05:30  INFO 7716 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-24T15:01:10.096+05:30  INFO 7716 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-04-24T15:01:10.264+05:30  INFO 7716 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-24T15:01:10.294+05:30  INFO 7716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-04-24T15:01:10.307+05:30  INFO 7716 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2548ccda
+2023-04-24T15:01:10.308+05:30  INFO 7716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-04-24T15:01:10.310+05:30  INFO 7716 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-24T15:01:10.467+05:30  INFO 7716 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-24T15:01:10.468+05:30  INFO 7716 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24T15:01:10.725+05:30  WARN 7716 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-24T15:01:13.219+05:30  WARN 7716 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-04-24T15:01:13.228+05:30  INFO 7716 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2023-04-24T15:01:13.298+05:30  INFO 7716 --- [main] c.c.application.SeleniumLoginTestCase    : Started SeleniumLoginTestCase in 5.104 seconds (process running for 41.877)
+2023-04-24T15:01:19.099+05:30  INFO 7716 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24T15:01:19.105+05:30  INFO 7716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-24T15:01:19.130+05:30  INFO 7716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-24T15:01:19.143+05:30  INFO 7716 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-24T15:01:19.145+05:30  INFO 7716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-04-24T15:01:19.150+05:30  INFO 7716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
