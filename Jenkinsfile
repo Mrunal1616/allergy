@@ -21,6 +21,12 @@ pipeline{
 				}
 			}
 		}
+		stage('test'){
+           steps{
+            sh './mvnw test'
+          
+           }
+            }
       stage('DockerBuild') {
             steps {
                 sh 'docker build -t mrunalbarde/allergy:latest .'
