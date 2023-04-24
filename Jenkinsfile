@@ -36,7 +36,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'docker push mrunalbarde/allergy'
+				sh 'docker push mrunalbarde/allergy:latest'
 			}
 		}
 	}
